@@ -3,39 +3,33 @@ using System.Collections.Generic;
 
 public class PlayerScore : MonoBehaviour
 {
-    // Private Variabele voor score type int
-    private int score;
+    // Publieke score-variabele, zichtbaar in de Inspector
+    public int score = 0;
 
-    // Private List voor "Coins" type int
-    private List<int> coins;
+    // Publieke lijst van verzamelde munten
+    public List<int> coins = new List<int>();
 
     void Start()
     {
-        score = 0;
-        coins = new List<int>();
-
-        // Loop: toon 3x een startbericht met Debug.Log in een loop
-        for (int i = 0; i < 3; i++)
+        // Toon 3 startberichten
+        for (int i = 1; i <= 3; i++)
         {
-            Debug.Log("Game gestart! Verzamel munten!");
+            Debug.Log("Game gestart! Verzamel munten! (" + i + ")");
         }
     }
 
     void Update()
     {
-        // If-statement: check of score >= 50
-        // Zo ja geef een bericht met Debug.Log dat je hebt gewonnen
+        // Check of de speler gewonnen heeft
         if (score >= 50)
         {
-            Debug.Log("Je hebt gewonnen!");
+            Debug.Log("🎉 Je hebt gewonnen! Totale score: " + score);
         }
 
-        // Test: druk op spatie om een munt toe te voegen
+        // Druk op spatie om een munt te pakken
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            // Roep functie AddCoin aan en geef de waarde van de coin mee
-            // Gebruik Random.Range(int min, int max) om een random waarde aan je coin te geven
-            int coinValue = Random.Range(5, 16); // willekeurige waarde tussen 5 en 15
+            int coinValue = Random.Range(5, 16); // Coin tussen 5 en 15 punten
             AddCoin(coinValue);
         }
     }
@@ -43,13 +37,11 @@ public class PlayerScore : MonoBehaviour
     // Functie om een munt toe te voegen
     void AddCoin(int coinValue)
     {
-        // Voeg munt toe aan lijst
-        coins.Add(coinValue);
+        coins.Add(coinValue);     // Voeg toe aan de lijst
+        score += coinValue;       // Verhoog score
 
-        // Verhoog score met de coin value
-        score += coinValue;
-
-        // Geef bericht dat je een coin hebt gepakt en toon je nieuwe score
-        Debug.Log($"Je hebt een munt van {coinValue} punten gepakt! Totale score: {score}");
+        // Toon debugbericht met score en aantal munten
+        Debug.Log($"Munt van {coinValue} punten gepakt! Totale score: {score}");
+        Debug.Log("Aantal munten verzameld: " + coins.Count);
     }
 }
