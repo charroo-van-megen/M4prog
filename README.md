@@ -51,4 +51,5 @@ Scripts
 🔴 Opdracht 8: Vijandgolf
 🎯 Vijanden spawnen in twee golven met tussenpauze, via Coroutine en Instantiate.
 🔗 [SpawnManager.cs](Assets/scripts/les8.cs)
-🎥
+🎥![ezgif com-video-to-gif-converter (4)](https://github.com/user-attachments/assets/f6a31d1a-3b56-46bb-98b6-95580c240d64)
+
