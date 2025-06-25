@@ -22,7 +22,8 @@
 🔗 [SceneSwitcher.cs](Assets/scripts/scenemanager.cs)
 🔗 [PlayerControl.cs](Assets/scripts/les2.cs)
 🔗 [CoinSpawner.cs](Assets/scripts/les8.cs)
-🎥
+🎥![ezgif com-video-to-gif-converter (2)](https://github.com/user-attachments/assets/f4615e5c-a8cd-4dda-8a49-61596d32db5b)
+
 
 🟣 Opdracht 5: Gestructureerde Muntjager
 🎯 Speler beweegt en verzamelt munten. Score wordt beheerd via apart script met debug-output.
