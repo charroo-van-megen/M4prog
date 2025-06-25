@@ -44,7 +44,7 @@ In deze opdracht heb ik een vijand-golf systeem gebouwd in Unity. Het systeem ge
 
 ## 🔗 Scripts
 
-- [https://github.com/charroo-van-megen/M4prog/blob/main/Assets/scripts/les8.cs](https://github.com/jouwgebruikersnaam/opdracht8-vijandgolf/blob/main/Assets/Scripts/SpawnManager.cs)
+- [Assets/scripts/les8.cs](Assets/scripts/les8.cs)
 
 ## 🧱 Gebruikte Objecten
 
