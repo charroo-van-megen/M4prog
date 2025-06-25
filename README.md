@@ -54,6 +54,28 @@ In deze opdracht heb ik een eenvoudige speler gemaakt die kan **bewegen** met de
 
 
 
+# Opdracht 3: Timed Muntjacht 🎮
+
+## 📌 Omschrijving
+In deze opdracht heb ik een simpele muntverzamelgame gebouwd in Unity. De speler beweegt met de pijltjestoetsen, verzamelt munten, en moet dat doen binnen een **tijdslimiet van 20 seconden**. De score en timer worden in de console weergegeven.
+
+## 🧠 Wat ik geleerd heb
+- Bewegen met `Vector3` en `Time.deltaTime`
+- Detecteren van triggers met `OnTriggerEnter`
+- Timer maken met `Time.deltaTime`
+- Variabelen publiek maken voor testing in Inspector
+
+## 🖥️ Functionaliteit
+- Speler beweegt met pijltjestoetsen
+- Score stijgt bij het verzamelen van munten
+- Timer telt af vanaf 20 seconden
+- "Game Over" verschijnt in de console wanneer tijd op is
+
+## 🔗 Script
+- [`GameManager.cs`](Assets/scripts/les 3.cs)
+
+
+
  
  
  
