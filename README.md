@@ -89,7 +89,45 @@ In deze opdracht heb ik een simpele muntverzamelgame gebouwd in Unity. De speler
 speed = 5
 timeLeft = 20
 
- 
+
+
+# 🎮 Opdracht 4: Start en Spel
+
+## 📌 Omschrijving
+In deze opdracht heb ik een Unity-project gemaakt met twee scènes: een startscherm en een spel. Je start in de StartScene en gaat met de spatiebalk naar de GameScene. Daar beweegt de speler en worden munten gegenereerd vanuit een prefab.
+
+## 🧠 Wat ik geleerd heb
+- Werken met meerdere scènes en SceneManager
+- Gebruik van `SerializeField` voor Inspector-aanpassing
+- Prefabs gebruiken en automatisch spawnen via een script
+
+## ⚙️ Scripts
+- [`SceneSwitcher.cs`](Assets/scripts/scenemanager.cs)
+- [`PlayerControl.cs`](Assets/scripts/les2.cs)
+- [`CoinSpawner.cs`](Assets/scripts/les8.cs)
+
+## 🎥 Demonstratie
+![Demo](https://github.com/jouwgebruikersnaam/unity-startspel/blob/main/demo/start-en-spel.gif)
+
+## 🛠️ Setup-instructies
+1. Voeg 2 scènes toe: `StartScene` en `GameScene`.
+2. Zet `SceneSwitcher.cs` op de camera in StartScene.
+3. Zet `PlayerControl.cs` op een Cube (speler).
+4. Maak een munt-prefab en gebruik `CoinSpawner.cs` om ze te spawnen.
+5. Voeg beide scènes toe aan Build Settings.
+
+## 🔧 Inspector Settings
+```plaintext
+PlayerControl:
+  speed = 5
+
+CoinSpawner:
+  coinPrefab = munt prefab
+  coinCount = 30
+  spawnRange = 5
+
+
+
  
  
  # Opdracht 8: Vijandgolf
