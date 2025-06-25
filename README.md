@@ -15,7 +15,7 @@ In deze opdracht heb ik een simpel score-systeem gemaakt in Unity met C#. De spe
 ![Gameplay Gif](https://github.com/jouwgebruikersnaam/score-munten-unity/blob/main/demo/score-munten.gif)
 
 ## 🔗 Script
-- [https://github.com/charroo-van-megen/M4prog/blob/main/Assets/scripts/coin.cs](https://github.com/jouwgebruikersnaam/score-munten-unity/blob/main/Assets/Scripts/PlayerScore.cs)
+[https://github.com/charroo-van-megen/M4prog/blob/main/Assets/scripts/coin.cs](https://github.com/jouwgebruikersnaam/score-munten-unity/blob/main/Assets/Scripts/PlayerScore.cs)
 
 ## 📌 Instructies
 - Druk op `Spatie` om een munt toe te voegen.
