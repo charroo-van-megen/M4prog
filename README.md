@@ -36,7 +36,8 @@
 
 🔗 [PlayerMove.cs](Assets/scripts/playermove.cs)
 🔗 [FollowAndReturn.cs](Assets/scripts/les6.cs)
-🎥
+🎥![ezgif com-video-to-gif-converter (5)](https://github.com/user-attachments/assets/7bb46f36-637a-48f7-90e0-d3347119a66c)
+
 
 🏆 Opdracht 7: Muntenscore met TMP
 Doel: Score wordt getoond in UI met TextMeshPro en stijgt bij het verzamelen van munten.
