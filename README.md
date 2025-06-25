@@ -25,6 +25,35 @@ In deze opdracht heb ik een simpel score-systeem gemaakt in Unity met C#. De spe
 ## 📁 Bestandsstructuur
 
  
+
+# Opdracht 2: Bewegende Speler
+
+## 🎯 Omschrijving
+In deze opdracht heb ik een eenvoudige speler gemaakt die kan **bewegen** met de pijltjestoetsen en **springen** met de spatiebalk. Ik heb gebruik gemaakt van een Rigidbody voor physics, en input met `Input.GetAxis()` en `Input.GetKeyDown()`.
+
+## 💻 Functionaliteiten
+- Beweging in 2D-vlak met pijltjestoetsen of WASD
+- Springen als de speler op de grond staat
+- Debug-log die springactie laat zien in de console
+- Variabelen `moveSpeed` en `jumpForce` instelbaar in Inspector
+
+## 🎥 Demonstratie
+![Gameplay](https://github.com/jouwgebruikersnaam/opdracht-bewegende-speler/blob/main/demo/jump-move.gif)
+
+## 🔗 Script
+- [`PlayerControl.cs`](Assets/scripts/les2.cs)
+
+## 📌 Setup-instructies
+1. Maak een **cube** en noem deze `Player`.
+2. Voeg een **Rigidbody** toe aan de speler.
+3. Voeg dit script toe aan de speler.
+4. Voeg een **Plane** toe als vloer, en tag deze met `"Ground"`.
+5. Speel de scène af en beweeg met toetsen.
+
+## 🛠️ Projectstructuur
+
+
+
  
  
  
