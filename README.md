@@ -72,9 +72,22 @@ In deze opdracht heb ik een simpele muntverzamelgame gebouwd in Unity. De speler
 - "Game Over" verschijnt in de console wanneer tijd op is
 
 ## 🔗 Script
-- [`GameManager.cs`](Assets/scripts/les 3.cs)
+- [`GameManager.cs`] (Assets/scripts/les 3.cs)
 
+## 🎥 Demonstratie
+![Gameplay](https://github.com/jouwgebruikersnaam/timed-muntjacht/blob/main/demo/muntjacht.gif)
 
+## ⚙️ Setup-instructies
+1. Voeg een `Cube` toe als speler en een `Plane` als vloer.
+2. Voeg aan de speler een `Rigidbody` toe.
+3. Voeg 2–3 `Cube` munten toe en zet hun Collider op "Is Trigger".
+4. Geef alle munten de tag `"Coin"`.
+5. Voeg `GameManager.cs` toe aan de speler.
+
+## 🛠️ Inspector-waarden
+```plaintext
+speed = 5
+timeLeft = 20
 
  
  
