@@ -72,7 +72,7 @@ In deze opdracht heb ik een simpele muntverzamelgame gebouwd in Unity. De speler
 - "Game Over" verschijnt in de console wanneer tijd op is
 
 ## 🔗 Script
-- [`GameManager.cs`] (Assets/scripts/les 3.cs)
+- [`GameManager.cs`](Assets/scripts/les3.cs)
 
 ## 🎥 Demonstratie
 ![Gameplay](https://github.com/jouwgebruikersnaam/timed-muntjacht/blob/main/demo/muntjacht.gif)
