@@ -44,7 +44,8 @@ Doel: Score wordt getoond in UI met TextMeshPro en stijgt bij het verzamelen van
 Scripts
 [ScoreManager.cs](Assets/scripts/scoremanager.cs)
 [PlayerMove.cs](Assets/scripts/playermove.cs)
-[Demonstratie]
+[Demonstratie]![ezgif com-video-to-gif-converter (3)](https://github.com/user-attachments/assets/5b98d3aa-8af5-4882-b3f0-1d72ca602c4e)
+
 
 
 🔴 Opdracht 8: Vijandgolf
