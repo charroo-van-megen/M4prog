@@ -44,7 +44,7 @@ In deze opdracht heb ik een vijand-golf systeem gebouwd in Unity. Het systeem ge
 
 ## 🔗 Scripts
 
-- [`les8.cs`](https://github.com/jouwgebruikersnaam/opdracht8-vijandgolf/blob/main/Assets/Scripts/SpawnManager.cs)
+- [`Assets/scripts/les8.cs`](https://github.com/jouwgebruikersnaam/opdracht8-vijandgolf/blob/main/Assets/Scripts/SpawnManager.cs)
 
 ## 🧱 Gebruikte Objecten
 
