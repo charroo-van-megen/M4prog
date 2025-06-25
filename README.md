@@ -1,4 +1,33 @@
 # M4PROG
+# Opdracht 1: Score en Munten
+
+## 🎯 Omschrijving
+In deze opdracht heb ik een simpel score-systeem gemaakt in Unity met C#. De speler (cube) verzamelt munten door op de spatiebalk te drukken. Elke munt levert 10 punten op. Als je 50 punten of meer hebt, win je het spel.
+
+## 💻 Functionaliteiten
+- Houdt score bij
+- Gebruikt `if`-statement voor winconditie
+- Loopt bij Start 3 keer een welkomsbericht
+- Gebruikt een `List<string>` om verzamelde munten bij te houden
+- Functie `AddCoin` voegt een munt toe aan de lijst
+
+## 🎥 Demonstratie
+![Gameplay Gif](https://github.com/jouwgebruikersnaam/score-munten-unity/blob/main/demo/score-munten.gif)
+
+## 🔗 Script
+- [`PlayerScore.cs`](https://github.com/jouwgebruikersnaam/score-munten-unity/blob/main/Assets/Scripts/PlayerScore.cs)
+
+## 📌 Instructies
+- Druk op `Spatie` om een munt toe te voegen.
+- Bij 50 punten verschijnt "Je hebt gewonnen!" in de console.
+- Bekijk `score` en `coins` live in de Unity Inspector.
+
+## 📁 Bestandsstructuur
+
+ 
+ 
+ 
+ 
  # Opdracht 8: Vijandgolf
 
 ## 🎯 Omschrijving
