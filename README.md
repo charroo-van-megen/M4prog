@@ -59,7 +59,8 @@ Scripts
 
 A simple countdown timer using `Time.deltaTime` and `TextMeshProUGUI`. Displays remaining time and shows "Game Over" when the timer hits zero.
 
----[timer]
+---[timer](Assets/scripts/timer.cs)
+[showtimer](Assets/scripts/showTimer.cs)
 
 ## 🎥 Demo
 
@@ -80,7 +81,7 @@ This script makes a GameObject (e.g. an enemy or player) move between three poin
    - Rename it `Player` (or anything — you'll drag it in later)
 
 3. **Create an empty GameObject** and attach the `Patrolling.cs` script to it.
-
+[patrolling](Assets/scripts/patrolling.cs)
 4. **Assign references** in the Inspector:
    - `Point A` → drag in `PointA`
    - `Point B` → drag in `PointB`
