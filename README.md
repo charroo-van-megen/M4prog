@@ -54,3 +54,44 @@ Scripts
 🔗 [SpawnManager.cs](Assets/scripts/les8.cs)
 🎥![ezgif com-video-to-gif-converter (4)](https://github.com/user-attachments/assets/f6a31d1a-3b56-46bb-98b6-95580c240d64)
 
+
+# ⏱ Unity Countdown Timer
+
+A simple countdown timer using `Time.deltaTime` and `TextMeshProUGUI`. Displays remaining time and shows "Game Over" when the timer hits zero.
+
+---[timer]
+
+## 🎥 Demo
+
+![Demo](path/to/demo.gif)  
+![ezgif com-video-to-gif-converter (6)](https://github.com/user-attachments/assets/f7c6d95f-a3c1-447a-82de-4a436f4b98b0)
+
+## 🚶 Patrolling Setup
+
+This script makes a GameObject (e.g. an enemy or player) move between three points: A → B → C → B → A, continuously.
+
+### 🛠 Scene Setup
+
+1. **Create 3 empty GameObjects** in your scene:
+   - Rename them to `PointA`, `PointB`, and `PointC`
+   - Position them where you want the patrol path to go
+
+2. **Create or select a GameObject** to patrol (e.g., a cube or character)
+   - Rename it `Player` (or anything — you'll drag it in later)
+
+3. **Create an empty GameObject** and attach the `Patrolling.cs` script to it.
+
+4. **Assign references** in the Inspector:
+   - `Point A` → drag in `PointA`
+   - `Point B` → drag in `PointB`
+   - `Point C` → drag in `PointC`
+   - `Player` → drag in the object to patrol
+   - `Speed` → set a value (e.g., `2`)
+
+5. **Hit Play** — the player moves between the points in a ping-pong pattern.
+![ezgif com-video-to-gif-converter (7)](https://github.com/user-attachments/assets/9ce9a784-a382-45b1-a74d-c3dd4c3357b2)
+
+   
+
+
+
