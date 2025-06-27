@@ -54,3 +54,17 @@ Scripts
 🔗 [SpawnManager.cs](Assets/scripts/les8.cs)
 🎥![ezgif com-video-to-gif-converter (4)](https://github.com/user-attachments/assets/f6a31d1a-3b56-46bb-98b6-95580c240d64)
 
+
+# ⏱ Unity Countdown Timer
+
+A simple countdown timer using `Time.deltaTime` and `TextMeshProUGUI`. Displays remaining time and shows "Game Over" when the timer hits zero.
+
+---[timer]
+
+## 🎥 Demo
+
+![Demo](path/to/demo.gif)  
+![ezgif com-video-to-gif-converter (6)](https://github.com/user-attachments/assets/f7c6d95f-a3c1-447a-82de-4a436f4b98b0)
+
+
+
